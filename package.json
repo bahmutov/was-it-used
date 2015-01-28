@@ -1,6 +1,6 @@
 {
   "name": "was-it-used",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Spy on 3rd party modules to tell if they were really used during testing",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "bugs": {
     "url": "https://github.com/bahmutov/was-it-used/issues"
   },
+  "pre-commit": ["npm test", "npm version"],
   "homepage": "https://github.com/bahmutov/was-it-used",
   "dependencies": {
     "check-more-types": "1.1.1",
