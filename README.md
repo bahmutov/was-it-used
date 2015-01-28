@@ -2,6 +2,21 @@
 
 > Spy on 3rd party modules to tell if they were really used during testing
 
+[![NPM][was-it-used-icon] ][was-it-used-url]
+
+[![Build status][was-it-used-ci-image] ][was-it-used-ci-url]
+[![dependencies][was-it-used-dependencies-image] ][was-it-used-dependencies-url]
+[![devdependencies][was-it-used-devdependencies-image] ][was-it-used-devdependencies-url]
+
+[was-it-used-icon]: https://nodei.co/npm/was-it-used.png?downloads=true
+[was-it-used-url]: https://npmjs.org/package/was-it-used
+[was-it-used-ci-image]: https://travis-ci.org/bahmutov/was-it-used.png?branch=master
+[was-it-used-ci-url]: https://travis-ci.org/bahmutov/was-it-used
+[was-it-used-dependencies-image]: https://david-dm.org/bahmutov/was-it-used.png
+[was-it-used-dependencies-url]: https://david-dm.org/bahmutov/was-it-used
+[was-it-used-devdependencies-image]: https://david-dm.org/bahmutov/was-it-used/dev-status.png
+[was-it-used-devdependencies-url]: https://david-dm.org/bahmutov/was-it-used#info=devDependencies
+
 Read [Was NodeJS module used](http://bahmutov.calepin.co/was-nodejs-module-used.html).
 
 ## Example

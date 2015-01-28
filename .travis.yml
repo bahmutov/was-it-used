@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "0.10"
+# wait until 2015-02-03 to enable
+# - "iojs"
+branches:
+  only:
+    - master
