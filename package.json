@@ -4,7 +4,7 @@
   "description": "Spy on 3rd party modules to tell if they were really used during testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/spy-on-foo.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,16 @@
   "bugs": {
     "url": "https://github.com/bahmutov/was-it-used/issues"
   },
-  "homepage": "https://github.com/bahmutov/was-it-used"
+  "homepage": "https://github.com/bahmutov/was-it-used",
+  "dependencies": {
+    "check-more-types": "1.1.1",
+    "check-types": "1.4.0",
+    "lazy-ass": "0.5.3",
+    "quote": "0.3.0",
+    "really-need": "1.6.1"
+  },
+  "devDependencies": {
+    "console.table": "0.4.0",
+    "pre-git": "0.1.1"
+  }
 }
